@@ -1,0 +1,1 @@
+emcc factorial.c -O1 -s WASM=1 -s ONLY_MY_CODE=1 -s EXPORTED_FUNCTIONS="['_factorial']" -o factorial.js
